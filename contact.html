@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="header">
+        <div class="header image">
+            <a href="home.html"><img src="images/logo.jpg" alt="Company Logo"> </a>
+        </div>
+        <div class="social-media-icons">
+            <a href="#"><img src="images/facebokk.jpg" alt="Facebook"></a>
+            <a href="#"><img src="images/twetter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+    </div>
+    <div class="header1">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="product.html">Products</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+</header>
+<body>
+	<h2 style="margin-left:60px;">Contact Us</h2>
+	<div class="contact-form">
+		<form action="/submit_form" method="post">
+		  <label for="name">Name: </label>
+		  <input type="text" id="name" name="name" required><br>
+		  <label for="email">Email:</label>
+		  <input type="text" id="email" name="email" required><br>
+		  <label for="phone">Phone:</label>
+		  <input type="tel" id="phone" name="phone" required><br>
+		  <label for="role">Role:</label>
+		    <input type="radio" id="techer" name="role" value="techer">
+		    <label for="html">Teacher</label>
+		    <input type="radio" id="student" name="role" value="student">
+		    <label for="css">Student</label><br>
+		  <label for="city">City:</label>
+		  <select name="city" id="city">
+			<option value="isl">Islamabad</option>
+			<option value="kar">Karachi</option>
+			<option value="lar">Lahore</option>
+			<option value="pew">Peshawer</option>
+		  </select>
+		  <br>
+		  <label for="message">Message:</label><br>
+		  <textarea id="message" name="message" required rows="8" cols="50"></textarea><br>
+		  <input type="submit" value="Submit">
+		</form>
+		<div class="column">
+			<textarea id="w3review" name="w3review" rows="8" cols="50">Address of your Busniss</textarea>
+			<div>
+				<textarea id="w3review" name="w3review" rows="8" cols="50">Insert Google Sitemap</textarea>
+			</div>
+		</div>
+	  </div>
+</body>
+<footer>
+    <p>All rights reserved.</p>
+</footer>
+</html>
